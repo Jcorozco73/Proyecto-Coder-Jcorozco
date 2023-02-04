@@ -14,7 +14,7 @@
     <header> 
         <h1 class="nombre-sitio">Nuestra <span>Tienda</span></h1>
         <div class="logotipo">
-            <img src="Imagenes/logotipo.png" width="200" height="200" alt="logotipo">   
+            <a href="/index.html"><img src="Imagenes/logotipo-removebg-preview.png" width="200" height="200" alt="logotipo"></a>   
         </div>
     </header>
         <div class="contenedor-navegacion">
@@ -38,15 +38,21 @@
 
                 <fieldset>
                     <legend>Tus Datos</legend>
-                <div class="campo">
+                
+                    <div class="campo">
 
                     <label for="nombre">Nombre:</label>
                     <input  id="nombre" type="text" placeholder="Coloca tu nombre" required>
                 </div>
 
                 <div class="campo">
-                    <label for="asunto">Nombre:</label>
-                    <input id="asunto" type="text" placeholder="Tu asunto" required>
+                    <label for="asunto">Apellido:</label>
+                    <input id="asunto" type="text" placeholder="Apellido" required>
+                </div>
+                <div class="campo">
+                    <label for="fecha">Fecha Nacimiento:</label>
+                    <input id="fecha" type="date" placeholder="Fecha" required>
+                    
                 </div>
 
                 <div class="campo">
@@ -60,8 +66,9 @@
                     </div>
 
                         <div class="campo">
-                            <label for="nombre">Mensaje:</label>
+                            <label for="nombre">Mensaje:
                             <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </label>
                         </div>
 
                 </fieldset>
@@ -93,8 +100,9 @@
                         <input id="proveedor" type="radio" name="tipo" value="proveedor">
                     </div>
                     <div class="campo">
-                        <label for="categoria">Categoria de Interés</label>
+                        <label for="categoria">Categoria de Interés
                         <input list="categorias" name="categorias">
+                        </label>
                         <datalist id="categorias">
                             <option value="Cocina">
                             <option value="Exterior">

@@ -51,11 +51,35 @@ html {
     
 }
 /*** Logotipo ***/ 
+
 .logotipo img {
     display: block;
     margin: auto;
     padding: 10px;
     border-top: 5px;
+    animation: logotipo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+  }  
+
+  
+  @keyframes logotipo {
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+ }
+
+.logotipo img:hover {
+    cursor: pointer;
+    filter: drop-shadow(-5px 5px 5px  #037Bc0);
+    
     
 }
 
@@ -169,7 +193,6 @@ img {
 /** Listdo Productos **/
 .contenido-principal{
     padding-top: 5rem;
-    width: 80rem;
     margin: 0 auto;
       
 }
