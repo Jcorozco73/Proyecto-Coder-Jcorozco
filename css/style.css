@@ -45,10 +45,15 @@ html {
     background-size: 100%, 120rem;
 }
 .video {
-    text-align: center;
-    padding: 0;
-    background-size: 100%, 120rem;
-    
+    padding: 0 auto;
+    width: auto;   
+}
+
+@media (min-width) {
+    .video {
+        padding: 0 auto;
+          
+    }
 }
 /*** Logotipo ***/ 
 
@@ -122,7 +127,7 @@ img {
 
 /* Header y Navegacion*/
 .nombre-sitio{
-    margin-top: 5rem;
+    margin-top: 4rem;
     text-align: center;
    
 }
