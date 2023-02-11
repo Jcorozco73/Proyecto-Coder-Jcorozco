@@ -1,0 +1,12 @@
+@mixin crear-grid( $columns, $gap){
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $gap;
+}
+
+$columnas: 3;
+$gutters: 3rem;
+
+.grid-footer {
+    @include crear-grid($columnas, $gutters);
+}

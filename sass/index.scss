@@ -1,0 +1,79 @@
+@use 'variables';
+@use 'mixins';
+
+$selector: '.hero';
+$propiedad_1: 'background-image';
+$propiedad_2: 'background-repeat';
+$propiedad_3: 'background-size';
+$propiedad_4: 'background-position';
+            
+  #{$selector}{
+    #{$propiedad_1}: url(../Imagenes/principal.jpg);
+    #{$propiedad_2}: no-repeat;
+    #{$propiedad_3}: cover;
+    #{$propiedad_4}: center center;
+    height: 55rem;
+  }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px*/
+  }
+ 
+  
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family:  'Raleway', sans-serif;
+	font-size: 1.6rem;
+	line-height: 2;
+
+
+}
+
+h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 5rem 0 ;
+}
+
+
+.btn{
+  background-color: variables.$bck-ground-color;
+  display: grid;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  transition: background-color .3s ease-out;
+  text-align: center;
+  border: none;
+  font-size: 1.6rem;
+}
+
+.btn:hover{
+  background-color: variables.$bck-ground-color;
+  cursor: pointer; 
+}
+.categoria a:hover {
+  background-color: variables.$primary;
+  color: #fff;
+  border-bottom-right-radius: 1rem;
+}
+.productos{
+  background-color:  variables.$primary;
+  margin-bottom: 2rem;
+}
+.formulario legend {
+  background-color:  variables.$primary;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
