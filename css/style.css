@@ -49,7 +49,7 @@ html {
     width: auto;   
 }
 
-@media (min-width) {
+@media (min-width: 768px) {
     .video {
         padding: 0 auto;
           
@@ -177,6 +177,7 @@ img {
 /* Categorias */
 .categorias{
     padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 .categorias h2{
     text-align: center;
