@@ -1,7 +1,10 @@
-.grid-footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+
+@media (min-width: 768px) {
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
 }
 
 .hero {
@@ -11,7 +14,11 @@
   background-position: center center;
   height: 55rem;
 }
-
+@media (min-width:768px) {
+  .hero {
+    height: 55rem;
+}
+}
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 1rem = 10px*/
@@ -34,19 +41,20 @@ h2, h3 {
 
 .btn {
   background-color: #8cbc00;
-  display: grid;
+  display: block;
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   padding: 1rem;
-  transition: background-color 0.3s ease-out;
+  transition: background-color .3s ease-out;
   text-align: center;
   border: none;
   font-size: 1.6rem;
+  
 }
 
 .btn:hover {
-  background-color: #8cbc00;
+  background-color:#86af09;
   cursor: pointer;
 }
 
@@ -59,6 +67,11 @@ h2, h3 {
 .productos {
   background-color: #037bc0;
   margin-bottom: 2rem;
+}
+@media (min-width:768px) {
+  .productos {
+      margin-bottom: 0;
+  }
 }
 
 .formulario legend {
