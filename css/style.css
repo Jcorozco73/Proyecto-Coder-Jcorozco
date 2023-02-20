@@ -415,23 +415,26 @@ img {
 }
 .copyright{ 
     text-align: center;
-    margin-top: 5rem;
+   
 }
 .social {
     display: flex;
     justify-content: center;
-    margin-top: 2px;
+    ;
     }
     .texto-social {
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
         color: #037Bc0;
-        margin-bottom: 5px;
+        padding-top: 3rem;
+        
+       
     }
-    .texto.social p {
-        margin-top: 0;
-    }
+    .texto.social p {     
+      padding-top: 5rem;
+      text-align: center;
+      }
   
 .iconos {
     display: flex;
