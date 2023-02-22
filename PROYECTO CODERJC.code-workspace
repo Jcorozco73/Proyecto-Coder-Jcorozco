@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../BOOSTRAP"
+		},
+		{
+			"path": "../08-arquitectura"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PROYECTO CODERJC"
+	}
+}
