@@ -542,6 +542,10 @@ a {
     padding-bottom: 4rem;
     background-color: #037Bc0;
 }
+.entrada-blog {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .entrada h2 {
     text-align: center;
 }
@@ -574,6 +578,8 @@ a {
 }
 .entrada-meta p {
     font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
 }
 .entrada-meta span {
@@ -583,4 +589,5 @@ a {
 .contenido-entrada-blog{
     width: 60rem;
     margin: 0 auto;
+    
 }
